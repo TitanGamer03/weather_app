@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
       title: 'Weather App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(useMaterial3: true),
-      home: const WeatherPage(),
+      home:  WeatherPage(),
     );
   }
 }
+
