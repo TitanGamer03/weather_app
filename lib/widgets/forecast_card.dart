@@ -4,7 +4,7 @@ class ForecastCard extends StatelessWidget{
 
   final String time;
   final IconData icon;
-  final double temp;
+  final String temp;
 
   const ForecastCard({
     super.key,
@@ -31,6 +31,8 @@ class ForecastCard extends StatelessWidget{
                 fontWeight: FontWeight.bold,
                 fontSize: 16,
               ),
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
             ),
 
             const SizedBox(height: 10,),
